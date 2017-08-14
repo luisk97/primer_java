@@ -2,9 +2,9 @@
 package bloque64;
 import java.util.Random;
 public class Polinomio {
-    private Vertice[] v;
+    public Vertice[] v;
     
-    public Polinomio(int tam){
+    private Polinomio(int tam){
         int aux1,aux2;
         Random rand = new Random(System.nanoTime());
         v = new Vertice[tam];
