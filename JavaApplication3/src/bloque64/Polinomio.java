@@ -16,7 +16,7 @@ public class Polinomio {
             v[i]= new Vertice(aux1,aux2);
         }
     }
-    // Eh aqui los cambios de esta clase doblemente peerra
+    // Eh aqui los cambios de esta clase doblemente peerra lml
     public void muestra(int i){
         
         System.out.println("El valor de la posicion: "+i+" es x: "+v[i].getx()+" e y es: "+v[i].gety());
