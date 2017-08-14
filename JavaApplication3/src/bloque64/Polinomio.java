@@ -2,9 +2,9 @@
 package bloque64;
 import java.util.Random;
 public class Polinomio {
-    public Vertice[] v;
+    private Vertice[] v;
     
-    private Polinomio(int tam){
+    public Polinomio(int tam){
         int aux1,aux2;
         Random rand = new Random(System.nanoTime());
         v = new Vertice[tam];
@@ -16,7 +16,7 @@ public class Polinomio {
             v[i]= new Vertice(aux1,aux2);
         }
     }
-    // Eh aqui los cambios de esta clase peerra
+    // Eh aqui los cambios de esta clase doblemente peerra
     public void muestra(int i){
         
         System.out.println("El valor de la posicion: "+i+" es x: "+v[i].getx()+" e y es: "+v[i].gety());
